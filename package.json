@@ -1,0 +1,11 @@
+{
+  "name": "learnpath",
+  "version": "0.2.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -c \"cyan,magenta\" -n backend,frontend \"npm --prefix backend run dev\" \"npm --prefix frontend run dev\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
